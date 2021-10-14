@@ -5,7 +5,7 @@ Repository untuk tugas project landing page web dari kampus merdeka Study Indepe
 Anggota :
 
 1. Ficri Hanip
-2. Fahkrul Zulfi
+2. Fakhrul Zulfi
 3. Fashman
 4. Ezza
 5. Fico
