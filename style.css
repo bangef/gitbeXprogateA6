@@ -7,8 +7,6 @@
   box-sizing: border-box;
 }
 
-
-
 .border-bug {
   border: 2px solid red;
 }
@@ -42,6 +40,100 @@
   margin-bottom: 26px;
   line-height: 1.8125em;
 }
+
+/* Landing Page - Ezza */
+.bg-landpage {
+  background-color: #d5ecfd;
+}
+
+/* Header */
+header {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  min-height: 15vh;
+}
+
+.logo-1 {
+  flex: 1;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 800;
+  color: #012443;
+}
+nav #icon {
+  color: #000;
+  font-size: 25px;
+  line-height: 50px;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
+nav {
+  float: right;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menubar {
+  text-decoration: none;
+  font-family: "Lato";
+  color: #000;
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+.menubar:hover {
+  color: #62b9fc;
+}
+/* End-Header */
+
+/* Hero */
+.hero {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 85vh;
+}
+
+.hero-left p {
+  font-size: 18px;
+  margin: 15px 0;
+  font-family: "Lato";
+}
+
+.hero-left h1 {
+  font-size: 60px;
+  font-family: "Prata";
+  color: #012443;
+}
+
+.btn-pg {
+  font-size: 16px;
+  font-family: "Lato";
+  border: none;
+  background-color: #012443;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 50px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.btn-pg:hover {
+  background: transparent;
+  border: 1px solid #012443;
+  color: #012443;
+  transition: all ease 0.4s;
+}
+/* End-Hero */
 /* spotlight section-2 - fakhrul zulfi*/
 .spotlight-container {
   display: flex;
@@ -57,7 +149,7 @@
 .spotlight .populer {
   text-align: center;
   color: #42777d;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 0.875em;
   font-weight: 700;
   letter-spacing: 0.3px;
@@ -65,7 +157,7 @@
 
 .spotlight-title {
   text-align: center;
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
   padding: 20px 0;
 }
 
@@ -79,7 +171,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .spotlight-card h2 {
@@ -110,11 +202,11 @@
   transition: 0.5s ease;
 
   /* Agar teks tidak bisa di seleksi hehe */
-  user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  -khtml-user-select:none;
-  -webkit-user-select:none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
 }
 
 .spotlight-card:hover {
@@ -124,22 +216,22 @@
 }
 
 .bg1 {
-  background-image: url('./asset/winter.png');
+  background-image: url("./asset/winter.png");
   background-size: 230px auto;
 }
 
 .bg2 {
-  background-image: url('./asset/kids.png');
+  background-image: url("./asset/kids.png");
   background-size: 140px auto;
-
 }
 
 .bg3 {
-  background-image: url('./asset/sport.png');
+  background-image: url("./asset/sport.png");
   background-size: 170px auto;
 }
 
-.spotlight-card, .body {
+.spotlight-card,
+.body {
   text-align: center;
   padding-top: 12px;
   padding-left: 30px;
@@ -198,7 +290,7 @@
 .card {
   width: 347px;
   height: 368px;
-  background: #F8F9FD;
+  background: #f8f9fd;
   margin-bottom: 20px;
 }
 
@@ -214,7 +306,8 @@
   height: 100%;
 }
 
-.card-image-left > img, .card-image-right > img {
+.card-image-left > img,
+.card-image-right > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -230,7 +323,7 @@
   height: auto;
   padding: 10px;
   display: flex;
-  
+
   flex-wrap: wrap;
 }
 
@@ -244,7 +337,7 @@
 .card-text > p {
   font-family: "Lato", sans-serif;
   font-size: 0.8em;
-  color: #8B8B8B;
+  color: #8b8b8b;
   margin-bottom: 10px;
 }
 
@@ -257,7 +350,7 @@
   font-family: "Lato", sans-serif;
   font-size: 0.687em;
   padding: 2px 10px;
-  background-color: #8B8B8B;
+  background-color: #8b8b8b;
   color: #fff;
   border-radius: 7px;
 }
@@ -460,6 +553,23 @@ footer > .container > .logo > ul > .noMarginBottom {
   .spotlight-title {
     font-size: 24px;
   }
+
+  /* navbar&section-1 */
+  .hero {
+    margin-top: 30px;
+  }
+  .hero-left h1 {
+    font-size: 50px;
+  }
+
+  .hero-left p {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+  /* end */
 }
 
 /* ukuran smartphone */
@@ -475,7 +585,7 @@ footer > .container > .logo > ul > .noMarginBottom {
   }
   /* end */
   /* section-5 */
-  .section-5 > .container{
+  .section-5 > .container {
     padding: 50px 20px;
   }
 
@@ -514,34 +624,67 @@ footer > .container > .logo > ul > .noMarginBottom {
   }
   /* end */
 
+  /* section-2 */
   .spotlight-card {
-      width: 100% !important;
-      height: 400px;
+    width: 100% !important;
+    height: 400px;
   }
 
   .spotlight-title {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .spotlight-content h2 {
-      font-size: 22px;
+    font-size: 22px;
   }
 
   .spotlight-content p {
-      font-size: 12px;
+    font-size: 12px;
   }
 
-  .bg1 {  
-      background-size: 200px auto;
+  .bg1 {
+    background-size: 200px auto;
   }
 
   .bg2 {
-      background-size: 120px auto;
+    background-size: 120px auto;
   }
 
   .bg3 {
-      background-size: 150px auto;
+    background-size: 150px auto;
   }
+  /* end */
+  /* navbar&section-1 */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 40px;
+  }
+
+  .hero-left p {
+    font-size: 14px;
+  }
+
+  .hero-right img {
+    width: 80%;
+  }
+  button {
+    font-size: 14px;
+    padding: 20px 30px;
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  nav #icon {
+    display: block;
+  }
+  /* end */
 }
 
 /* fix-image */
