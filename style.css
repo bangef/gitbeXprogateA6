@@ -313,7 +313,7 @@ footer > .container > .logo > ul > .noMarginBottom {
 /* end */
 
 /* ukuran tablet */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   /* footer */
   footer > .container > .logo {
     width: 50%;
@@ -350,7 +350,7 @@ footer > .container > .logo > ul > .noMarginBottom {
 }
 
 /* ukuran smartphone */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 670px) {
   /* footer */
   footer {
     padding: 50px 20px;
