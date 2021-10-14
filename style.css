@@ -7,10 +7,51 @@
   box-sizing: border-box;
 }
 
+
+
+.border-bug {
+  border: 2px solid red;
+}
+
+.container {
+  width: 100%;
+  max-width: 1070px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-primer {
+  background-color: #fafcfe;
+}
+
+.section-3-top-head,
+.section-5-top-head {
+  font-family: "Lato", sans-serif;
+  font-size: 0.875em;
+  font-weight: 700;
+  color: #42777d;
+  margin-bottom: 24px;
+}
+
+.section-3-bottom-head,
+.section-5-bottom-head {
+  font-family: "Prata", serif;
+  font-size: 1.8125em;
+  font-weight: 400;
+  color: #102440;
+  margin-bottom: 26px;
+  line-height: 1.8125em;
+}
+/* spotlight section-2 - fakhrul zulfi*/
+.spotlight-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .spotlight {
   display: flex;
   flex-direction: column;
-  padding: 50px 0 0 0;
+  padding: 50px 20px;
 }
 
 .spotlight .populer {
@@ -55,14 +96,14 @@
 
 .spotlight-card {
   background: #eceef0;
-  width: 23%;
+  width: 30%;
   height: 450px;
   border-radius: 3px;
-  margin: 0 20px 20px 20px;
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
   background-position: bottom;
+  margin-bottom: 20px;
 
   /* untuk animasi hover */
   -webkit-transition: 0.5s ease;
@@ -83,62 +124,28 @@
 }
 
 .bg1 {
-  background-image: url('/asset/winter.png');
+  background-image: url('./asset/winter.png');
   background-size: 230px auto;
 }
 
 .bg2 {
-  background-image: url('/asset/kids.png');
+  background-image: url('./asset/kids.png');
   background-size: 140px auto;
 
 }
 
 .bg3 {
-  background-image: url('/asset/sport.png');
+  background-image: url('./asset/sport.png');
   background-size: 170px auto;
 }
 
-.spotlight-card .body {
+.spotlight-card {
   text-align: center;
   padding-top: 12px;
   padding-left: 30px;
   padding-right: 30px;
 }
-
-.border-bug {
-  border: 2px solid red;
-}
-
-.container {
-  width: 100%;
-  max-width: 1070px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.bg-primer {
-  background-color: #fafcfe;
-}
-
-.section-3-top-head,
-.section-5-top-head {
-  font-family: "Lato", sans-serif;
-  font-size: 0.875em;
-  font-weight: 700;
-  color: #42777d;
-  margin-bottom: 24px;
-}
-
-.section-3-bottom-head,
-.section-5-bottom-head {
-  font-family: "Prata", serif;
-  font-size: 1.8125em;
-  font-weight: 400;
-  color: #102440;
-  margin-bottom: 26px;
-  line-height: 1.8125em;
-}
-
+/* end */
 /* section-3 */
 .section-3 {
   padding: 54px 50px;
