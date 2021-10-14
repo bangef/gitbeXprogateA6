@@ -139,7 +139,7 @@
   background-size: 170px auto;
 }
 
-.spotlight-card {
+.spotlight-card, .body {
   text-align: center;
   padding-top: 12px;
   padding-left: 30px;
