@@ -23,6 +23,7 @@
 }
 
 .section-3-top-head,
+.section-4-top-head,
 .section-5-top-head {
   font-family: "Lato", sans-serif;
   font-size: 0.875em;
@@ -32,6 +33,7 @@
 }
 
 .section-3-bottom-head,
+.section-4-bottom-head,
 .section-5-bottom-head {
   font-family: "Prata", serif;
   font-size: 1.8125em;
@@ -41,7 +43,7 @@
   line-height: 1.8125em;
 }
 
-/* Landing Page - Ezza */
+/* navbar&section-1 - Ezza */
 .bg-landpage {
   background-color: #d5ecfd;
 }
@@ -133,7 +135,8 @@ nav {
   color: #012443;
   transition: all ease 0.4s;
 }
-/* End-Hero */
+/* End */
+
 /* spotlight section-2 - fakhrul zulfi*/
 .spotlight-container {
   display: flex;
@@ -256,6 +259,7 @@ nav {
   max-width: inherit;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .section-3 > .container > .section-3-heading > .section-3-heading-right {
@@ -263,17 +267,20 @@ nav {
   justify-content: space-between;
 }
 
-.section-3-heading-right > button {
+.section-3-heading-right > button,
+.section-4-btn-area > button {
   width: 117px;
   height: 40px;
   border: 2px solid #102440;
   border-radius: 50px;
   background-color: transparent;
   font-family: "Lato", sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
+  line-height: 1em;
 }
 
-.section-3-heading-right > button:hover {
+.section-3-heading-right > button:hover,
+.section-4-btn-area > button:hover {
   background-color: #102440;
   transition: all ease 0.4s;
   color: #fafcfe;
@@ -355,7 +362,63 @@ nav {
   border-radius: 7px;
 }
 /* end */
+/* section-4 */
+.section-4 {
+  padding: 54px 50px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
+.section-4 > .container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.section-4 > .container > .section-4-heading {
+  width: inherit;
+  max-width: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section-4-btn-area {
+  margin-top: 50px;
+}
+
+.card-items-section-4 {
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-section-4 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-image-section-4 img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-text-section-4 {
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+/* end */
 /* section-5 */
 .section-5 {
   padding: 94px 0;
@@ -570,6 +633,15 @@ footer > .container > .logo > ul > .noMarginBottom {
     font-size: 18px;
   }
   /* end */
+  /* section-4 */
+  .card-section-4 {
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /* end *
 }
 
 /* ukuran smartphone */
@@ -604,7 +676,7 @@ footer > .container > .logo > ul > .noMarginBottom {
     padding: 50px 20px;
   }
 
-  .section-3-heading-right > button {
+  .section-3-heading-right > button, .section-4-btn-area > button {
     width: 100%;
     height: 50px;
     margin-bottom: 26px;
@@ -671,6 +743,7 @@ footer > .container > .logo > ul > .noMarginBottom {
   .hero-right img {
     width: 80%;
   }
+
   button {
     font-size: 14px;
     padding: 20px 30px;
@@ -683,6 +756,19 @@ footer > .container > .logo > ul > .noMarginBottom {
 
   nav #icon {
     display: block;
+  }
+  /* end */
+  /* section-4 */
+  .card-section-4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .section-4 {
+    padding: 54px 20px;
   }
   /* end */
 }
